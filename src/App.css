@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+.counterBox{
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  width: 150px;
+  height: 200px;
+  background-color: #282c34;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0px 0px 30px 5px #282c34;
+}
+.counterBox button{
+  background-color: #61dafb;
+  border: 0;
+  width: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.counterBox button:hover{
+  background-color: #fb8061;
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
