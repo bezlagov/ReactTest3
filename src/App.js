@@ -14,6 +14,9 @@ function App() {
         <Counter />
         <Counter />
         <Counter />
+        <Counter />
+        <Counter />
+        <Counter />
       </Holder>
     </div>
   );
