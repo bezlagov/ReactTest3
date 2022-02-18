@@ -7,6 +7,8 @@ export default class Counter extends React.Component {
         this.state = {
             count: 0
         }
+        this.increment = this.increment.bind(this);
+        this.decrement = this.decrement.bind(this);
     }
     increment(e) {
         console.log();
@@ -23,8 +25,8 @@ export default class Counter extends React.Component {
         return (
             <div className='counterBox'>
                 <h1>{this.state.count}</h1>
-                <button onClick={(e) => this.increment(e)}>+</button>
-                <button onClick={(e) => this.decrement(e)}>-</button>
+                <button onClick={this.increment}>+</button>
+                <button onClick={this.decrement}>-</button>
             </div>);
     }
 }
